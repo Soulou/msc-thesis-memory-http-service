@@ -1,9 +1,7 @@
-# Simple webservice to generate CPU usage
-
-→ Original source from https://medium.com/@tschundeee/acc0879c2122
+# Simple webservice to memory usage
 
 ## API
 
 ```
-/[number] → Compute the N-th item of the fibonacci sequence
+/[memory]/[duration] → Allocate [memory] megabytes for [duration] milliseconds
 ``` 
